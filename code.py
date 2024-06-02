@@ -87,6 +87,7 @@
 """Code for repo: Vision_product_Analyzer. This code handles core operations."""
 """Code for repo: Vision_product_Analyzer. This code handles core operations."""
 """Code for repo: Vision_product_Analyzer. This code handles core operations."""
+"""Code for repo: Vision_product_Analyzer. This code handles core operations."""
 import os
 import torch
 from PIL import Image
@@ -961,6 +962,10 @@ class TestVision_product_AnalyzerFunctions(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+try:
+    process_data()
+except Exception as e:
+    print(f'Error processing data: {e}')
 try:
     process_data()
 except Exception as e:
