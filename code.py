@@ -1,3 +1,4 @@
+"""Code for repo: Vision_product_Analyzer. This code handles core operations."""
 import os
 import torch
 from PIL import Image
@@ -121,3 +122,7 @@ brand_product_counts = process_images_from_folder(folder_path)
 
 for (brand, product), count in brand_product_counts.most_common():
     print(f"{brand}, {product}: {count}")
+try:
+    process_data()
+except Exception as e:
+    print(f'Error processing data: {e}')
