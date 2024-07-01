@@ -1740,3 +1740,8 @@ try:
     process_data()
 except Exception as e:
     print(f'Error: {e}')
+# Change made in repository: Vision_product_Analyzer
+try:
+    process_data()
+except Exception as e:
+    print(f'Error: {e}')
