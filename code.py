@@ -20,6 +20,7 @@
 """Code for repo: Vision_product_Analyzer. This code handles core operations."""
 """Code for repo: Vision_product_Analyzer. This code handles core operations."""
 """Code for repo: Vision_product_Analyzer. This code handles core operations."""
+"""Code for repo: Vision_product_Analyzer. This code handles core operations."""
 import os
 import torch
 from PIL import Image
